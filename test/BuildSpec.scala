@@ -16,11 +16,14 @@
 
 package test
 
+import org.scalatest.matchers.should.Matchers
+
 import scala.sys.process._
+import org.scalatest.wordspec.AnyWordSpec
 
-import org.scalatest.{Matchers, WordSpec}
+import scala.language.postfixOps
 
-class BuildSpec extends WordSpec with Matchers {
+class BuildSpec extends AnyWordSpec with Matchers {
   "Building the content" should {
     "produce static files" in {
       val result = "bundle install" #&& Process("bundle exec middleman build --build-dir=public/ --clean", None) !
