@@ -7,7 +7,7 @@ ThisBuild / scalafixDependencies += "com.github.liancheng" %% "organize-imports"
 
 inThisBuild(
   List(
-    scalaVersion := "2.12.11",
+    scalaVersion      := "2.13.8",
     semanticdbEnabled := true,
     semanticdbVersion := scalafixSemanticdb.revision
   )
@@ -18,8 +18,8 @@ lazy val microservice = Project(appName, file("."))
   .settings(
     libraryDependencies ++= AppDependencies.compile ++ AppDependencies.test,
     update / evictionWarningOptions := EvictionWarningOptions.default.withWarnScalaVersionEviction(false),
-    majorVersion := 0,
-    scalaVersion := "2.12.11"
+    majorVersion                    := 0,
+    scalaVersion                    := "2.12.11"
   )
   .settings(
     publishingSettings: _*
