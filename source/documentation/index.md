@@ -42,15 +42,19 @@ This version of the CTC Guarantee Balance API:
 
 Learn how to get started with the CTC Guarantee Balance API.
 
+If you are new to the NCTS, you should review all of this document before reviewing other documents for phase 5. If you are migrating from NCTS phase 4 to phase 5, you should review this section at least before reviewing other documents for phase 5.
+
 ### Before you start
 
 Before you start using the Guarantee Balance API, you should:
 
 - ensure that you have an HMRC [developer account](/developer/login) - if you don’t have one, you must [register for an account](/developer/registration), activate it by email, and sign in
+- add your subscription to this API to your application
 - learn about the user-restricted [authentication](/api-documentation/docs/authorisation/user-restricted-endpoints) used by the API  
 - [create an application](/developer/applications/) in our sandbox environment
 - use the [Create Test User API](/api-documentation/docs/api/service/api-platform-test-user/1.0) to create one or more test users for your sandbox application
 - download [NCTS-P5 reference data](https://ec.europa.eu/taxation_customs/dds2/rd/rd_download_home.jsp?Lang=en) that can be used for testing
+- read the testing guide (poending) to check that your software is compatible with this version of the API and to learn how to test your application in the sandbox environment
 
 ### Production environment requirements
 
@@ -78,8 +82,8 @@ If you work for a software house, each trader you serve must use the [Government
 
 These journeys show examples of use:
 
-- developer setup
-- submit a guarantee balance request
+- [developer setup](documentation/developer-setup.html)
+- [submit a guarantee balance request](documentation/submit-guarantee-balance-request.html)
 
 ## Process flow
 
@@ -91,9 +95,11 @@ Your application must comply with [our terms of use](/api-documentation/docs/ter
 
 ## Related documentation
 
+- CTC Guarantee Balance API roadmap (pending)
 - [CTC Guarantee Balance API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-guarantee-balance/2.0)
 - [CTC Guarantee Balance API v2.0 reference](/api-documentation/docs/api/service/common-transit-convention-guarantee-balance/2.0)
 - [CTC Guarantee Balance API v2.0 changelog](https://github.com/hmrc/common-transit-convention-guarantee-balance/wiki/CTC-Guarantee-Balance-API-v2.0-changelog) (GitHub)
+- CTC Guarantee Balance API phase 5 testing guide (pending)
 - [CTC Traders API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-traders/2.0)
 
 ## Getting help and support
@@ -106,4 +112,4 @@ You can also email questions to [SDSTeam@hmrc.gov.uk](mailto:SDSTeam@hmrc.gov.uk
 
 ## Changelog
 
-You can find the changelog in the [ctc-guarantee-balance-phase5-service-guide](https://github.com/hmrc/ctc-guarantee-balance-phase5-service-guide/wiki/CTC-Guarantee-Balance-API-phase-5-service-guide-changelog) GitHub wiki.
+You can find the changelog for this document in the [ctc-guarantee-balance-phase5-service-guide](https://github.com/hmrc/ctc-guarantee-balance-phase5-service-guide/wiki/CTC-Guarantee-Balance-API-phase-5-service-guide-changelog) GitHub wiki.
