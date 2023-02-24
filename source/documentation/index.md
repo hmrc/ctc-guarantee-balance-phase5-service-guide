@@ -24,7 +24,7 @@ You can use the API on its own or you can use it with the [CTC Traders API v2.0]
 
 If a trader moves goods between the UK and other countries that are part of the Common Transit Convention (CTC), their transit movements must have the appropriate guarantee funds to cover eventualities, such as the loss of goods during transit.
 
-Consequently, each transit declaration sent to the NCTS must include guarantee details. The NCTS checks the guarantee reference number (GRN) quoted against the principal’s Trader Identification Number (TIN) and the declared access code. Any validation failures will cause a declaration to be rejected.
+Consequently, each transit declaration sent to the NCTS must include guarantee details. The NCTS checks the guarantee reference number (GRN) quoted against the declared access code. Any validation failures will cause a declaration to be rejected.
 
 You can use more than one guarantee for a transit declaration if they are not comprehensive guarantees or guarantee waivers. A comprehensive guarantee or guarantee waiver that is not sufficient to cover a movement may be topped up by using an individual guarantee or vouchers.
 
