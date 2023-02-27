@@ -54,7 +54,7 @@ Before you start using the Guarantee Balance API, you should:
 - [create an application](/developer/applications/) in our sandbox environment
 - use the [Create Test User API](/api-documentation/docs/api/service/api-platform-test-user/1.0) to create one or more test users for your sandbox application
 - download [NCTS-P5 reference data](https://ec.europa.eu/taxation_customs/dds2/rd/rd_download_home.jsp?Lang=en) that can be used for testing
-- read the testing guide (poending) to check that your software is compatible with this version of the API and to learn how to test your application in the sandbox environment
+- read the testing guide (pending) to check that your software is compatible with this version of the API and to learn how to test your application in the sandbox environment
 
 ### Production environment requirements
 
