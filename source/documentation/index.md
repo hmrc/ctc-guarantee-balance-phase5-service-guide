@@ -56,6 +56,8 @@ Before you start using the Guarantee Balance API, you should:
 - download [NCTS-P5 reference data](https://ec.europa.eu/taxation_customs/dds2/rd/rd_download_home.jsp?Lang=en) that can be used for testing
 - read the testing guide (pending) to check that your software is compatible with this version of the API and to learn how to test your application in the sandbox environment
 
+**Note:** If you want to test the API before the testing guide is published, please see [Submit a guarantee balance request](documentation/submit-guarantee-balance-request.html).
+
 ### Production environment requirements
 
 Before you can use the production environment for the CTC Guarantee Balance API, you must:
