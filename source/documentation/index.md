@@ -97,8 +97,7 @@ Your application must comply with [our terms of use](/api-documentation/docs/ter
 
 ## Related documentation
 
-- CTC Guarantee Balance API roadmap (pending)
-- [CTC Guarantee Balance API v2.0 documentation](/api-documentation/docs/api/service/common-transit-convention-guarantee-balance/2.0)
+- [CTC Guarantee Balance API roadmap](/roadmaps/ctc-guarantee-balance-roadmap/)
 - [CTC Guarantee Balance API v2.0 reference](/api-documentation/docs/api/service/common-transit-convention-guarantee-balance/2.0)
 - [CTC Guarantee Balance API v2.0 changelog](https://github.com/hmrc/common-transit-convention-guarantee-balance/wiki/CTC-Guarantee-Balance-API-v2.0-changelog) (GitHub)
 - CTC Guarantee Balance API phase 5 testing guide (pending)
