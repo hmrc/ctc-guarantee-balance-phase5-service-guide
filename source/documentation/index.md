@@ -8,6 +8,8 @@ description: Software developers, designers, product owners or business analysts
 
 Learn how to use [CTC Guarantee Balance API v2.0](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-guarantee-balance/2.0) with your software.
 
+For information about key NCTS5 dates, see [NCTS phase 5 technical interface specification](/guides/ctc-traders-phase5-tis/#ncts5-key-dates).
+
 ## API overview
 
 The CTC Guarantee Balance API is based on REST principles with an endpoint that returns data in JSON format and it uses standard HTTP error response codes.
