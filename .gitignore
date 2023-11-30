@@ -26,5 +26,5 @@ yarn-error.log
 /.batect
 /.bsp
 **/.DS_Store
-Gemfile.lock
-Gemfile.lock
+.metals
+.vscode
