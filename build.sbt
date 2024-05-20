@@ -3,10 +3,11 @@ import sbt.Keys._
 val appName = "ctc-guarantee-balance-phase5-service-guide"
 
 ThisBuild / scalafixDependencies += "com.github.liancheng" %% "organize-imports" % "0.6.0"
+ThisBuild / libraryDependencySchemes += "org.scala-lang.modules" %% "scala-xml" % VersionScheme.Always
 
 inThisBuild(
   List(
-    scalaVersion      := "2.13.8",
+    scalaVersion      := "2.13.12",
     semanticdbEnabled := true,
     semanticdbVersion := scalafixSemanticdb.revision
   )
@@ -18,5 +19,5 @@ lazy val microservice = Project(appName, file("."))
     libraryDependencies ++= AppDependencies.compile ++ AppDependencies.test,
     update / evictionWarningOptions := EvictionWarningOptions.default.withWarnScalaVersionEviction(false),
     majorVersion                    := 0,
-    scalaVersion                    := "2.13.8"
+    scalaVersion                    := "2.13.12"
   )
