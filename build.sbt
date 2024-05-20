@@ -3,7 +3,6 @@ import sbt.Keys._
 val appName = "ctc-guarantee-balance-phase5-service-guide"
 
 ThisBuild / scalafixDependencies += "com.github.liancheng" %% "organize-imports" % "0.6.0"
-ThisBuild / libraryDependencySchemes += "org.scala-lang.modules" %% "scala-xml" % VersionScheme.Always
 
 inThisBuild(
   List(
