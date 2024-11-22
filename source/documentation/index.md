@@ -34,11 +34,10 @@ For more information, see [HMRC guidance about NCTS guarantees](https://www.gov.
 
 ## API status
 
-This version of the CTC Guarantee Balance API:
+CTC Guarantee Balance API v2.0:
 
-- supports only NCTS phase 5 ([CTC Guarantee Balance API v1.0](/api-documentation/docs/api/service/common-transit-convention-guarantee-balance/1.0) supports only NCTS phase 4)
-- is ready for testing
-- will not be ready for use in production until phase 5 goes live - in the meantime, you should continue using CTC Guarantee Balance API v1.0 
+- supports only NCTS phase 5
+- is live in production and available for testing
 
 ## Quick start
 
@@ -153,13 +152,13 @@ The following table lists the documents for CTC Guarantee Balance API v2.0 and o
 
 The order in you which you might read these documents can depend on whether you have previous NCTS experience. The following table recommends 2 possible reading orders but you can read the documents in any order you want.
 
-| Suggested reading order | New NCTS users | NCTS4 users migrating to NCTS5 |
-| --- | --- | --- |
-| 1 | Roadmap | Service guide |
-| 2 | Service guide | Technical interface specification |
-| 3 | Technical interface specification | Reference |
-| 4 | Reference | Testing guide |
-| 5 | Testing guide | Roadmap |
+| Suggested reading order | New NCTS users                    | NCTS4 users migrating to NCTS5    |
+|-------------------------|-----------------------------------|-----------------------------------|
+| 1                       | Roadmap                           | Service guide                     |
+| 2                       | Service guide                     | Technical interface specification |
+| 3                       | Technical interface specification | Reference                         |
+| 4                       | Reference                         | Testing guide                     |
+| 5                       | Testing guide                     | Roadmap                           |
 
 **Note:** If you have NCTS4 experience,  it is important that you read the NCTS5 service guide and API reference carefully to understand all of the differences between NCTS4 and NCTS5. Reading only the NCTS5 technical interface specification will NOT guide you about all of the differences between the 2 NCTS phases.
 
